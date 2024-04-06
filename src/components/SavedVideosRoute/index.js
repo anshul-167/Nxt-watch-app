@@ -1,4 +1,5 @@
 import {Component} from 'react'
+
 import {MdPlaylistAdd} from 'react-icons/md'
 import {Redirect} from 'react-router-dom'
 import Loader from 'react-loader-spinner'
@@ -111,6 +112,7 @@ class SavedVideosRoute extends Component {
               }}
             >
               <MdPlaylistAdd style={{marginLeft: '5px', fontSize: '35px'}} />
+
               <h2 style={{marginLeft: '5px', fontSize: '35px'}}>
                 Saved Videos
               </h2>
